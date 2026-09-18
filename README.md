@@ -42,3 +42,33 @@ This project demonstrates Python automation, process monitoring, subprocess mana
 ## Author
 
 Bhavesh Samadhiya
+
+## Requirements
+
+- Python 3.x
+- Windows OS
+- psutil
+- pyautogui
+- Microsoft Visual Studio Code
+
+## Installation
+
+Install the required Python libraries:
+
+```bash
+pip install psutil pyautogui
+
+## How to Run
+
+1. Open the project folder.
+2. Make sure `timer.txt` is available.
+3. Run:
+
+```bash
+python service_v2.py
+
+You can also use `run.bat`.
+
+## Note
+
+This project is currently configured for a specific Windows environment and uses a local VS Code installation path.
